@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login_movie_Suite" >
+      <parameter name="web_driver" value="firefox"></parameter>
+     <parameter name="host_url" value="http://test.yoya.com/"></parameter> 
+  	<test name="createMovie">
+  	    <parameter name="user_name" value="lntest"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.LoginMovieTest">
+				<methods>
+					<include name="createMovie"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test> 
+ 
+</suite> <!-- Suite -->

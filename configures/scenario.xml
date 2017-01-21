@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="scenario_Suite" >
+      <parameter name="web_driver" value="firefox"></parameter>
+     <parameter name="host_url" value="http://test.yoya.com/"></parameter>
+
+<!--<test name="createScenario">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie456"></parameter>
+		<classes>
+		   
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+				    <parameter name="sc_style" value="现代卡通"></parameter>
+				    <parameter name="sc_type" value="办公室"></parameter>
+				    <parameter name="scene_name" value="哦哦"></parameter>
+				    <parameter name="movie_name" value="movie456"></parameter>
+				    <parameter name="user_name" value="jackylee"></parameter>
+					<include name="createScenario"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>  
+	
+	
+	<test name="selfDefScenario">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie45"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+				    <parameter name="scene_name" value="自定义场景"></parameter>
+				    <parameter name="scene_pic" value="F:\\WebAutomation\\race_car.jpg"></parameter>
+					<include name="selfDefScenario"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test> 
+	
+	
+	<test name="searchScene">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie45"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+				    
+				    <parameter name="search_word" value="哦"></parameter>
+					<include name="searchScene"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+	
+	<test name="newScenario">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie6"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+					<include name="newScenario"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+	
+	 
+	<test name="copyScenario">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie6"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+					<include name="copyScenario"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+ 
+ 
+ <test name="deleteScenario">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie6"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+					<include name="deleteScenario"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+	
+
+ <test name="setScenarioBackgroud">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie6"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+				    <parameter name="scene_name" value="自定义场景"></parameter>
+				    <parameter name="scene_pic" value="F:\\WebAutomation\\race_car.jpg"></parameter>
+					<include name="setScenarioBackgroud"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+	
+-->	
+ <test name="triggerScenariosLimit">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie6"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.ScenarioTest">
+				<methods>
+					<include name="triggerScenariosLimit"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+ 
+ 
+ 
+</suite> <!-- Suite -->

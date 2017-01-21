@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all_suites" >
+<!--     <listeners>
+        <listener class-name="com.school.listener.TestResultListener"></listener>
+    </listeners> -->
+     <parameter name="web_driver" value="firefox"></parameter>
+     <parameter name="host_url" value="http://test.yoya.com/"></parameter> 
+    <suite-files>
+        <suite-file path="./configures/role.xml"></suite-file>
+        <!-- <suite-file path="./configures/homepage.xml"></suite-file> -->
+        <!--  <suite-file path="./configures/scenario.xml"></suite-file>   -->
+        <!-- <suite-file path="./configures/help.xml"></suite-file> -->
+        
+    </suite-files>
+    
+</suite>

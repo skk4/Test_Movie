@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="help_Suite" >
+      <parameter name="web_driver" value="firefox"></parameter>
+     <parameter name="host_url" value="http://test.yoya.com/"></parameter> 
+  	
+  	
+  	
+  <!-- 	<test name="newHandguide">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie1"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.HelpTest">
+				<methods>
+					<include name="newHandguide"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+ 
+  	<test name="helpcenter">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie2"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.HelpTest">
+				<methods>
+					<include name="helpcenter"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+  	 --> 
+  	 <test name="checkSetAvaiable">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie3"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.HelpTest">
+				<methods>
+					<include name="checkSetAvaiable"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+  	
+</suite> <!-- Suite -->

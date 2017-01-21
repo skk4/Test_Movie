@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="role_Suite" >
+      <parameter name="web_driver" value="firefox"></parameter>
+     <parameter name="host_url" value="http://test.yoya.com/"></parameter> 
+  	
+  	
+  	<!-- <test name="assertSpiritAvaible">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie12"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				    <parameter name="caption_content" value="abcdef"></parameter>
+					<include name="assertSpiritAvaible"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>  
+	
+	<test name="assertRoleSaying">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie13"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				    <parameter name="caption_content" value="abcdef"></parameter>
+					<include name="assertRoleSaying"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+	
+ 
+	<test name="assertRoleWalking">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie14"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				    <parameter name="caption_content" value="123456"></parameter>
+					<include name="assertRoleWalking"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+
+<test name="assertRoleTurn">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie15"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				   
+					<include name="assertRoleTurn"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+
+<test name="assertRoleSitAndStand">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie15"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+					<include name="assertRoleSitAndStand"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+<test name="assertRolePosture">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie15"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				    <parameter name="posture_name" value="不同意"></parameter>
+					<include name="assertRolePosture"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>	
+
+
+<test name="assertRoleFaceIcon">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie15"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+				    
+				    <parameter name="face_icon" value="5"></parameter>
+				    <parameter name="face_name" value="33"></parameter>
+					<include name="assertRoleFaceIcon"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>	
+
+<test name="move">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie16"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+					<include name="move"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+
+
+<test name="appear">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie16"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+					<include name="appear"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+
+<test name="disappear">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie17"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+					<include name="disappear"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test>
+ <test name="qiangdiao">
+  	    <parameter name="user_name" value="lntest1"></parameter>
+		<parameter name="pass_word" value="123456"></parameter>
+		<parameter name="movie_title" value="movie18"></parameter>
+		<classes>
+			<class name="com.hddy.test.movie.RoleTest">
+				<methods>
+					<include name="qiangdiao"></include>
+				</methods>
+			</class>	
+		</classes>
+		
+	</test> 
+-->	
+</suite> <!-- Suite -->

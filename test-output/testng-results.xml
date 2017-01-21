@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75801" started-at="2016-08-19T06:41:57Z" finished-at="2016-08-19T06:43:13Z">
+    <groups>
+    </groups>
+    <test name="f" duration-ms="75801" started-at="2016-08-19T06:41:57Z" finished-at="2016-08-19T06:43:13Z">
+      <class name="com.yoya.test.movie.LoginMovieTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yoya.test.movie.LoginMovieTest@48eff760]" name="beforeTest" is-config="true" duration-ms="50377" started-at="2016-08-19T14:41:57Z" finished-at="2016-08-19T14:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.99cj.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xiesj]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[movie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.yoya.test.movie.LoginMovieTest@48eff760]" name="f" duration-ms="25410" started-at="2016-08-19T14:42:48Z" finished-at="2016-08-19T14:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.yoya.test.movie.LoginMovieTest@48eff760]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-08-19T14:43:13Z" finished-at="2016-08-19T14:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.yoya.test.movie.LoginMovieTest -->
+    </test> <!-- f -->
+  </suite> <!-- Suite -->
+</testng-results>
